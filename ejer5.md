@@ -1,52 +1,57 @@
- Primera parte del examen de DAW
- Formatear correctamente los títulos vale 0.2 ptos
- Formato (0.4 ptos)
-Podemos poner un texto en negrita, otro en cursiva y un tercero en negrita y cursiva
+ # Primera parte del examen de DAW
+ ## Formatear correctamente los títulos vale 0.2 ptos
+ ## Formato (0.4 ptos)
+Podemos poner un texto en **negrita**, otro en **cursiva* y un tercero en ***negrita y cursiva***
 
 
 También podemos hacerlo en una lista de puntos:
- negrita
- cursiva
- negrita y cursiva
+- **negrita**
+- cursiva
+ - ***negrita y cursiva***
 
- Listas (0.4 ptos)
+ ## Listas (0.4 ptos)
 Además de las listas con puntos tenemos las listas numeradas
-Uno
-Dos
-Tres
+1. Uno
+2. Dos
+3. Tres
 
- Listas multinivel (es un título de tercer nivel)
+**Listas multinivel (es un título de tercer nivel)**
+
 También podemos hacer listas multinivel
-Primer paso
-Item 1.1
-Item 1.2
-Incluso combinando con
-una lista de puntos multinivel
-dentro del punto 1.2
-Segundo paso
-Item 2.1
-Item 2.2
 
- Segunda parte del examen de DAW
- Enlaces e imágenes (0.2 ptos)
-Podemos poner un enlace a www.iesabastos.org
+1. Primer paso
+1.Item 1.1
+2.Item 1.2
+-Incluso combinando con
+-una lista de puntos multinivel
+-dentro del punto 1.2
+2.Segundo paso
+1.Item 2.1
+2.Item 2.2
 
- Imágenes
+ # Segunda parte del examen de DAW
+ ## Enlaces e imágenes (0.2 ptos)
+Podemos poner un enlace a [www.iesabastos.org](www.iesabastos.org)
+
+ #### Imágenes
 O podemos insertar una imagen
 
-pulgar_arriba.jpg
+![pulgar_arriba](pulgar_arriba.jpg)
 
- Código (0.2 ptos)
+
+ ### Código (0.2 ptos)
 Podemos resaltar líneas de código, como: var saludo='Hola Mundo'
 
 Y también podemos resaltar bloques de código
-
+```
 var linea = readline();
 linea = linea.split(' ');
 console.log(linea.reverse().join(' '));
+```
 
 
 Y si ponemos el lenguaje (_javascript_) a continuación de la primera marca de bloque de código, se resalta en el formato de ese lenguaje!!
+```js
 var linea = readline();
 linea = linea.split(' ');
-console.log(linea.reverse().join(' '));
+console.log(linea.reverse().join(' '));```
